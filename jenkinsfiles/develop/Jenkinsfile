@@ -19,6 +19,6 @@ node {
        stage('run') {
         /* This builds the actual image */
 
-      sh "docker run -p 9000:3000 d1"
+      sh "docker run -p 30146:3000 d1"
     }
 }
