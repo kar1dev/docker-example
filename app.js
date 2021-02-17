@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/',(req,res)=>{
     const date = new Date();
-    res.send(date);
+    res.send(date + "updated");
 });
 
 app.listen(3000,()=>{
